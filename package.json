@@ -1,24 +1,29 @@
 {
-  "name": "stylelint-config-standard",
-  "version": "20.0.0",
-  "description": "Standard shareable config for stylelint",
+  "name": "@nodeart/stylelint",
+  "version": "0.0.0",
+  "description": "Nodeart shareable config for stylelint",
   "keywords": [
     "stylelint",
-    "stylelint-config",
-    "standard"
+    "stylelint-nodeart",
+    "nodeart"
   ],
   "author": "stylelint",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/stylelint/stylelint-config-standard.git"
+    "url": "https://github.com/NodeArt/stylelint-nodeart"
   },
   "main": "index.js",
   "files": [
     "index.js"
   ],
   "dependencies": {
-    "stylelint-config-recommended": "^3.0.0"
+    "stylelint-config-recommended": "^3.0.0",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-declaration-use-variable": "^1.7.2",
+    "stylelint-high-performance-animation": "^1.5.1",
+    "stylelint-order": "^3.1.1",
+    "stylelint-scss": "^3.18.0"
   },
   "devDependencies": {
     "eslint": "^7.7.0",

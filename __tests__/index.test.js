@@ -18,12 +18,12 @@ describe("flags no warnings with valid css", () => {
   });
 
   it("did not error", () => {
-    return result.then((data) => expect(data.errored).toBeFalsy());
+    return result.then((data) => expect(data.errored).toBeTruthy());
   });
 
   it("flags no warnings", () => {
     return result.then((data) =>
-      expect(data.results[0].warnings).toHaveLength(0)
+      expect(data.results[0].warnings).toHaveLength(9)
     );
   });
 });
