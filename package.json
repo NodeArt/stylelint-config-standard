@@ -1,7 +1,6 @@
 {
-  "name": "@nodeart/stylelint",
+  "name": "@nodeart/stylelint-config-nodeart",
   "version": "0.0.1",
-  "private": "false",
   "description": "Nodeart shareable config for stylelint",
   "keywords": [
     "stylelint",
@@ -18,14 +17,7 @@
   "files": [
     "index.js"
   ],
-  "dependencies": {
-    "stylelint-config-recommended": "^3.0.0",
-    "stylelint-config-rational-order": "^0.1.2",
-    "stylelint-declaration-use-variable": "^1.7.2",
-    "stylelint-high-performance-animation": "^1.5.1",
-    "stylelint-order": "^3.1.1",
-    "stylelint-scss": "^3.18.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "eslint": "^7.7.0",
     "eslint-config-stylelint": "^12.0.0",
@@ -38,7 +30,12 @@
     "remark-cli": "^8.0.1",
     "remark-preset-lint-recommended": "^4.0.1",
     "remark-preset-prettier": "^0.4.0",
-    "stylelint": "^13.7.1"
+    "stylelint": "^13.7.1",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-declaration-use-variable": "^1.7.2",
+    "stylelint-high-performance-animation": "^1.5.1",
+    "stylelint-order": "^3.1.1",
+    "stylelint-scss": "^3.18.0"
   },
   "peerDependencies": {
     "stylelint": "^10.1.0 || ^11.0.0 || ^12.0.0 || ^13.0.0"
