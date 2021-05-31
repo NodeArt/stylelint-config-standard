@@ -19,7 +19,7 @@
     "index.js"
   ],
   "dependencies": {
-    "stylelint-config-recommended": "^4.0.0",
+    "stylelint-config-recommended": "^5.0.0",
     "stylelint-config-rational-order": "^0.1.2",
     "stylelint-declaration-use-variable": "^1.7.2",
     "stylelint-high-performance-animation": "^1.5.1",
