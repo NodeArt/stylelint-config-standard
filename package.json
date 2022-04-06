@@ -49,11 +49,11 @@
     ]
   },
   "dependencies": {
-    "stylelint-config-rational-order": "^0.1.2",
     "stylelint-config-standard": "^25.0.0",
     "stylelint-declaration-strict-value": "^1.8.0",
     "stylelint-high-performance-animation": "^1.6.0",
     "stylelint-order": "^5.0.0",
+    "@stanzilla/stylelint-config-rational-order": "^0.1.4",
     "stylelint-scss": "^4.2.0"
   },
   "devDependencies": {

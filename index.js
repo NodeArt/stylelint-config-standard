@@ -1,11 +1,11 @@
 'use strict';
 
 module.exports = {
-	extends: ['stylelint-config-standard', 'stylelint-config-rational-order'],
+	extends: ['stylelint-config-standard', '@stanzilla/stylelint-config-rational-order'],
 	plugins: [
 		'stylelint-order',
 		'stylelint-scss',
-		'stylelint-config-rational-order/plugin',
+		'@stanzilla/stylelint-config-rational-order/plugin',
 		'stylelint-high-performance-animation',
 		'stylelint-declaration-strict-value',
 	],
