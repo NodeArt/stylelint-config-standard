@@ -7,6 +7,7 @@ module.exports = {
 		'@stanzilla/stylelint-config-rational-order/plugin',
 		'stylelint-high-performance-animation',
 		'stylelint-declaration-strict-value',
+		'stylelint-declaration-block-no-ignored-properties',
 	],
 	rules: {
 		'no-empty-source': [
@@ -23,7 +24,7 @@ module.exports = {
 		],
 		'scale-unlimited/declaration-strict-value': [
 			['/color$/', 'font-size', 'font-family', 'font-weight'],
-		],
+		], // stylelint-declaration-strict-value
 		'order/properties-order': [],
 		'plugin/rational-order': [
 			true,
@@ -39,5 +40,6 @@ module.exports = {
 			},
 		],
 		'no-descending-specificity': true,
+		'plugin/declaration-block-no-ignored-properties': true, // stylelint-declaration-block-no-ignored-properties
 	},
 };
