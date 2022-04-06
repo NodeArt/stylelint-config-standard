@@ -1,10 +1,9 @@
 'use strict';
 
 module.exports = {
-	extends: ['stylelint-config-standard', '@stanzilla/stylelint-config-rational-order'],
+	extends: ['stylelint-config-standard-scss', '@stanzilla/stylelint-config-rational-order'],
 	plugins: [
 		'stylelint-order',
-		'stylelint-scss',
 		'@stanzilla/stylelint-config-rational-order/plugin',
 		'stylelint-high-performance-animation',
 		'stylelint-declaration-strict-value',
@@ -40,7 +39,5 @@ module.exports = {
 			},
 		],
 		'no-descending-specificity': true,
-		'at-rule-no-unknown': null,
-		'scss/at-rule-no-unknown': true,
 	},
 };
