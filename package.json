@@ -54,7 +54,7 @@
     "stylelint-declaration-use-variable": "^1.7.2",
     "stylelint-high-performance-animation": "^1.5.1",
     "stylelint-order": "^3.1.1",
-    "stylelint-scss": "^3.18.0"
+    "stylelint-scss": "^4.3.0"
   },
   "devDependencies": {
     "@stylelint/prettier-config": "^2.0.0",
