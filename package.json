@@ -1,6 +1,6 @@
 {
   "name": "@nodeart/stylelint-config-nodeart",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "private": false,
   "description": "NodeArt shareable config for stylelint",
   "keywords": [
