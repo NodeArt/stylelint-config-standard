@@ -1,6 +1,6 @@
 {
   "name": "@nodeart/stylelint-config-nodeart",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "private": false,
   "description": "Nodeart shareable config for stylelint",
   "keywords": [
@@ -8,12 +8,11 @@
     "stylelint-nodeart",
     "nodeart"
   ],
-  "author": "stylelint",
-  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/NodeArt/stylelint-nodeart"
   },
+  "license": "MIT",
   "main": "index.js",
   "files": [
     "index.js"
@@ -49,8 +48,8 @@
     ]
   },
   "dependencies": {
-    "stylelint-config-recommended": "^9.0.0",
     "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-recommended": "^9.0.0",
     "stylelint-declaration-use-variable": "^1.7.2",
     "stylelint-high-performance-animation": "^1.5.1",
     "stylelint-order": "^5.0.0",
